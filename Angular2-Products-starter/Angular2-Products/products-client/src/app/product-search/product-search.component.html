@@ -1,0 +1,19 @@
+<div class="containter">
+  <h2>Search product</h2>
+  <br /><br />
+  <form [formGroup]="productSearchForm" (ngSubmit)="onSubmit()">
+    <br />
+    <label>
+      Name:
+      <input type="text" formControlName="name" />
+    </label>
+    <br />
+    <button type="submit" [disabled]="!productSearchForm.valid">Search</button>
+  </form>
+  <br /><br />
+  <h2>Result</h2>
+  <label>Name :&nbsp;</label>{{ product.name }}<br />
+  <label>Description :&nbsp;</label>{{ product.description }}<br />
+  <label>Price :&nbsp;</label>{{ product.price }}
+  <br />
+</div>

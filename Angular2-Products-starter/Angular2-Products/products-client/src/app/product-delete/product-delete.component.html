@@ -1,0 +1,14 @@
+<div class='container'>
+   <h1>Delete Product</h1>
+
+<form [formGroup]="productDeleteForm" (ngSubmit)="onSubmit()">
+  <br />
+  <label>
+    Name:
+    <input type="text" formControlName="name">
+  </label>
+  <br />
+  <button type="submit" [disabled]="!productDeleteForm.valid">Delete</button>
+  <br />
+</form>
+</div>
