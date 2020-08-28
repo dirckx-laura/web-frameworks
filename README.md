@@ -2,7 +2,7 @@
 Subject Web Frameworks during my academic career at Artesis Plantin Hogeschool.
 
 **Color Text**<br/>
-Assignment:
+Assignment:<br/>
 Color given text with React. (using https://casesandberg.github.io/react-color/)
 
 User manual:
@@ -13,7 +13,7 @@ User manual:
 
 
 **my-first-react-app**<br/>
-Assignment:
+Assignment:<br/>
 Recolor the React logo. (using https://casesandberg.github.io/react-color/)
 
 
@@ -24,7 +24,7 @@ User manual:
 -npm start
 
 **City Locator**<br/>
-Assignment:
+Assignment:<br/>
 Application to locate a city in Belgium with React. (using https://www.npmjs.com/package/pigeon-maps)
 
 User manual:
@@ -33,7 +33,7 @@ User manual:
 -npm start
 
 **Angular Products**<br/>
-Assignment:
+Assignment:<br/>
 Complete given starter project with a search and add functionality. Using Angular, express and MongoDB.
 
 User manual:
