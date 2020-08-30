@@ -1,6 +1,18 @@
 # web-frameworks
 Subject Web Frameworks during my academic career at Artesis Plantin Hogeschool.
 
+
+**JSP exercise**<br/>
+Assignment:<br/>
+Complete given starter project with a search, delete and add functionality. Using JSP and MongoDB.
+
+User manual:
+
+- Have a database called 'students' in Mongo.
+- Open project, go to /app, npm install
+- npm start
+- enjoy!
+
 **Color Text**<br/>
 Assignment:<br/>
 Color given text with React. (using https://casesandberg.github.io/react-color/)
