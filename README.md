@@ -1,17 +1,28 @@
 # web-frameworks
 Subject Web Frameworks during my academic career at Artesis Plantin Hogeschool.
 
-
-**JSP exercise**<br/>
+**Express-Mongo exercise**<br/>
 Assignment:<br/>
-Complete given starter project with a search, delete and add functionality. Using JSP and MongoDB.
+Complete given starter project with a search, delete and add functionality. Using Express and MongoDB.
 
 User manual:
 
 - Have a database called 'students' in Mongo.
 - Open project, go to /app, npm install
 - npm start
-- enjoy!
+- Go to port 3000
+- Enjoy!
+
+**JSP exercise**<br/>
+Assignment:<br/>
+Simple webapplication. When a checkbox is checked, show the result. Also a reset button. Using JSP and Tomcat server.
+
+User manual:
+
+- Open project, run 'mvn clean package'
+- Deploy the war-file with Tomcat
+- Go to port 8080
+- Enjoy!
 
 **Color Text**<br/>
 Assignment:<br/>
