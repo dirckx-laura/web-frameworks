@@ -7,7 +7,7 @@ Complete given starter project with a search, delete and add functionality. Usin
 
 User manual:
 
-- Have a database called 'students' in Mongo.
+- Have a database called 'students' in Mongo
 - Open project, go to /app, npm install
 - npm start
 - Go to port 3000
