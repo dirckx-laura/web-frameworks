@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Students</title>
+  <!--link rel='stylesheet' href='stylesheets/bootstrap.min.css'-->
+</head>
+<body>
+  <h2>Result</h2>
+  <br/><br/>
+  <p>
+    <span><b>Naam : </b><%= student.naam %></span><br />
+    <span><b>Geboortedatum : </b><%= student.geboortedatum %></span><br />
+    <span><b>Studierichting : </b><%= student.studierichting %></span
+    ><br /> </p>
+
+  <form action='/students/delete' method='POST'>
+    <span><input type='hidden' name='naam' value='<%= student.naam %>'></span>
+    <span><button type='submit'>Delete</button></span>
+  </form>
+
+</body>
+</html>
